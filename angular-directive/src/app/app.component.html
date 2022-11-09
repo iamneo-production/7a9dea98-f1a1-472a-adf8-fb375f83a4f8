@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+<div class="container">
+  
+
+  <a [routerLink]="'normal'" ><input type="radio" id="normalbutton" name="button" value="normalbutton"/></a>
+      <label for="normalbutton">Normal Button</label> <br/>
+      <a [routerLink]="'oneclick'" ><input type="radio" id="oneclickbutton" name="button" value="oneclickbutton"></a>
+      <label for="oneclickbutton">One Click Button</label> <br/>
+      <a [routerLink]="'error'"><input type="radio" id="errorbutton" name="button" value="errorbutton"></a>
+      <label for="errorbutton">Error Button</label>
+</div>
+<router-outlet></router-outlet>
